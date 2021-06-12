@@ -1,0 +1,372 @@
+@import 'header.css';
+
+/*index  body */
+.section{
+    background-color: #f6f6f6;
+}
+.section .navPart{
+    background-color: white;
+}
+.section .secPart {
+    width: 1190px;
+
+    margin: 0px auto;
+}
+.section .secPart ul li{
+    padding: 10px;
+    border-bottom: solid 2px transparent;
+    margin: 5px 10px;
+}
+
+.section .secPart ul li a{
+    font-size: 14px;
+}
+.section .secPart ul li:hover{
+    border-bottom: solid 2px red;
+}
+.section .secPart ul li:hover a{
+    color: red;
+}
+
+.section .showMain{
+    width: 100%;
+    height: 340px;
+}
+
+.section .showMain .lunboleft{
+    width: 220px;
+    height: 340px;
+    overflow: hidden;
+    margin: 0px 0px 0px 354px;
+}
+.section .showMain .lunboleft ul{
+    width: 1100px;
+}
+.section .showMain .lunboright{
+    width: 750px;
+    height: 340px;
+    overflow: hidden;
+}
+.section .showMain .lunboright ul{
+    width: 3750px;
+}
+.section .showMain .userMessage{
+    width: 220px;
+    height: 340px;
+    background-color: white;
+
+}
+.section .showMain .userMessage .touxiang{
+    margin: 16px 0px 12px 0px;
+}
+.section .showMain .userMessage .touxiang  a{
+    margin: 0px 75px;
+    display: block;
+}
+.section .showMain .userMessage  .denglu{
+    display: block;
+    margin: 0px 56px;
+}
+.section .showMain .userMessage .dengluzhuce{
+    margin: 10px 0px;
+}
+.section .showMain .userMessage .dengluzhuce a{
+    border: solid 1px red;
+    border-radius: 5px;
+    color: red;
+    float: left;
+    padding: 6px 19px;
+    margin: 10px 7px;
+}
+.section .showMain .userMessage .dengluzhuce a:hover{
+    background-color: red;
+    color: white;
+}
+.section .showMain .userMessage .erweima img{
+    width: 160px;
+    margin: 1px 30px;
+}
+
+.section .shopGroup{
+    background-color: white;
+}
+.section .shopGroup a{
+    display: block;
+    width: 1190px;
+    margin: 0px auto 20px;
+}
+
+.section .xianshituangou{
+    width: 1190px;
+    margin: 0px auto 20px;
+    background-color: white;
+}
+.section .xianshituangou .xianshiheader{
+    height: 60px;
+}
+.section .xianshituangou .xianshiheader .xianshiheaderleft{
+    line-height: 60px;
+}
+.section .xianshituangou .xianshiheader .xianshiheaderleft a{
+    display: block;
+}
+.section .xianshituangou .xianshiheader .xianshiheaderleft a span:first-child{
+    font-size: 24px;
+    color: red;
+    margin: 0px 5px 0px 7px;
+}
+.section .xianshituangou .xianshiheader .xianshiheaderleft a .xianshishangou{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 9px 0px 0px;
+}
+.section .xianshituangou .xianshiheader .xianshiheaderleft a .xianshikuailai{
+    color: #a3a3a3;
+}
+.section .xianshituangou .xianshiheader .xianshiheaderright .gengduo a span:first-child{
+    margin: 1px 0px 0px 4px;
+}
+.section .xianshituangou .xianshiheader .xianshiheaderright .gengduo a{
+    display: block;
+    padding: 5px 9px;
+    margin: 17px 9px;
+    background-color: #ccc;
+    border-radius: 20px;
+}
+
+.section .xianshituangou .xianshiheader .xianshiheaderright .gengduo a:hover{
+    color: white;
+    background-color: red;
+}
+
+
+
+.section .xianshituangou .xianshiMain ul li div{
+    width: 390px;
+}
+
+.section .xianshituangou .xianshiMain ul li div a{
+    display: block;
+}
+
+.section .xianshituangou .xianshiMain ul li div a .Ma1{
+    width: 140px;
+    padding: 8px 11px 1px 15px;
+}
+.section .xianshituangou .xianshiMain ul li div a .Ma2{
+    width: 210px;
+    padding: 13px 7px;
+}
+.section .xianshituangou .xianshiMain ul li div a .Ma2 .Mlip1{
+    line-height: 24px;
+    font-size: 15px;
+}
+.section .xianshituangou .xianshiMain ul li div a .Ma2 .Mlip2{
+    font-size: 19px;
+    margin: 10px 0px;
+}
+.section .xianshituangou .xianshiMain ul li div a .Ma2 .mainLdba{
+    width: 210px;
+    height: 20px;
+    background-color:#ffb5b2;
+    border-radius: 15px;
+}
+.section .xianshituangou .xianshiMain ul li div a .Ma2 .mainLdba .mainLdwid{
+    width: 92px;
+    height: 20px;
+    border-radius: inherit;
+    background-color: rgb(255, 51, 0);
+}
+.section .xianshituangou .xianshiMain ul li div a:hover .Ma2 .Mlip1{
+    color: rgba(255, 30, 0, 0.87);
+}
+
+.section .changePart .chahead{
+    width: 1190px;
+    height: 121px;
+    margin: 0px auto;
+}
+
+.section .changePart .chahead a{
+    display: block;
+    background-image: url(../img/temaibc.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 300px;
+    margin: 0px auto;
+    background-position: 50% center;
+
+}
+.section .changePart .chahead a .chah1{
+    font-size: 27px;
+    margin: 20px 86px 3px;
+    display: block;
+    padding: 23px 10px 0px 10px;
+    color: red;
+}
+.section .changePart .chahead a .chah2{
+    font-size: 17px;
+    display: block;
+    margin: 0px 98px;
+    color: #a3a3a3;
+}
+
+.section .changePart .chaMain ul .chaMali{
+    margin: 20px 0px 0px 0px;
+}
+.section .changePart .chaMain ul li a{
+    width: 1190px;
+    display: block;
+    margin: 0px auto;
+}
+
+.section .changePart .chaMain ul li a .chaleft img{
+    height: 243px;
+    width: 543px;
+}
+.section .changePart .chaMain ul li a .charight {
+    width: 646px;
+    padding: 8px 0px 1px 0px;
+    height: 234px;
+    background-color: white;
+}
+.section .changePart .chaMain ul li a .charight .chafanli{
+    padding: 0px 0px 0px 10px;
+}
+.section .changePart .chaMain ul li a .charight .fanlileft span:first-child{
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    float: left;
+}
+.section .changePart .chaMain ul li a .charight .fanlileft span:last-child{
+    font-size: 14px;
+    display: block;
+    float: left;
+    color: red;
+    margin: 2px 0px 0px 0px;
+}
+.section .changePart .chaMain ul li a .charight .fanliright{
+    background-color: #ccc;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 0px 10px 0px 0px;
+}
+.section .changePart .chaMain ul li a .charight .fanliright:hover{
+    background-color: red;
+    color: white;
+}
+.section .changePart .chaMain ul li a .charight .fanliright span:first-child{
+    display: block;
+    float: left;
+}
+.section .changePart .chaMain ul li a .charight .fanliright span:last-child{
+    display: block;
+    float: left;
+    margin: -2px 0px 0px -2px;
+}
+.section .changePart .chaMain ul li a .charight .chatuijian{
+    padding: 32px 12px 0px 12px;
+}
+.section .changePart .chaMain ul li a .charight .chatuijian li img{
+    width: 128px;
+    height: 128px;
+}
+.section .changePart .chaMain ul li a .charight .chatuijian li .tuijiaimg{
+    display: block;
+}
+.section .changePart .chaMain ul li a .charight .chatuijian .chatuijianli1{
+    float: left;
+    margin: 11px 25px 0px 25px;
+}
+.section .changePart .chaMain ul li a .charight .chatuijian .chatuijianli1 .temaili1{
+    font-size: 18px;
+}
+.section .changePart .chaMain ul li a .charight .chatuijian .chatuijianli1 .temaili2{
+    color: red;
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    height: 400px;
+    background-color: #444;
+    margin: 200px 0px 0px 0px;
+    color: white;
+}
+.footer .footerShow{
+    width: 1190px;
+    margin: 0px auto;
+}
+.footer .footerShow dl{
+    float: left;
+    margin: 25px 79px;
+}
+.footer .footerShow dl dt{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.footer .footerShow dl dd{
+    margin: 12px;
+}
+.footer .footerShow dl dd a {
+    display: block;
+    color: #ccc;
+}
+.footer .footerShow dl dd a:hover{
+    color: white;
+}
+.footer .footerShow .dl3 dd {
+    margin: 25px -13px;
+}
+.footer .footerShow .dl3 dd img{
+    width: 100px ;
+    height: 100px;
+}
+
+.footer .footerMessage .messa{
+    width: 990px;
+    margin: 0px auto;
+    text-align: center;
+}
+.footer .footerMessage .messa a{
+    color: #ccc;
+    display: inline-block;
+    margin: 4px 14px;
+}
+
+
+
+
+
+
+
+.cebian .aside{
+    position: absolute;
+    top: 700px ;
+    right: 265px;
+}
+.cebian .aside .uaside li {
+    margin: 5px 0px 0px 0px;
+    width: 39px;
+}
+.cebian .aside .uaside li:hover a{
+    background-color: #dd0e3d;
+}
+.cebian .aside .uaside li a{
+    padding: 4px 5px;
+    display: block;
+    background-color: #fb3434;
+    color: white;
+}
+.cebian .aside .uaside li a span:first-child{   
+    display: inline-block;
+    font-size: 29px;
+}
+.cebian .aside .uaside li a span:last-child{
+    display: inline-block;
+    width: 30px;
+    font-size: 14px;
+}
+
+

@@ -1,0 +1,130 @@
+.header .nav1{
+    border-bottom: 1px solid #ebebeb;
+    background: #F8F8F8;
+
+}
+.header .nav1 .nav{
+    width: 1190px;
+    line-height: 40px;
+    margin: 0px auto;
+}
+.header .nav .navright .rightNli{
+    margin: 0px 26px;
+}
+.header .nav .navright .rightN .rightNli1 a:first-child{
+    color: red;
+}
+.header .nav .navright .rightN .rightNli1 a:last-child:hover{
+    color: red;
+}
+
+.header .search{
+    width: 1190px;
+    margin: 0px auto;
+}
+.header .search .seIndexImg img{
+    width: 170px;
+    height: 77px;
+}
+.header .search .seIndexImg{
+    margin: 29px 20px 0px 20px;
+}
+.header .search .searchShopButtom{
+    width: 500px;
+    overflow: hidden;
+}
+.header .search .searchShopButtom ul{
+    width: 532px;
+    margin: 9px 0px;
+    overflow: hidden;
+}
+.header .search .searchShopButtom ul li{
+    margin: 0px 8px;
+    white-space: nowrap;
+}
+.header .search .searchShopButtom ul li a:hover{
+    color: red;
+}
+.header .search .searchShopButtom ul li a{
+    color: #A3A3A3;
+}
+
+
+
+
+.header .search .searchErwei{
+    margin: 16px 0px -1px 0px;
+}
+
+.header .search .searchErwei .Erweileft img{
+    width: 310px;
+    height: 110px;
+}
+.header .search .searchErwei .Erweihidden{
+    display: none;
+}
+.header .search .searchErwei:hover .Erweihidden{
+    display: block;
+}
+.header .search .searchErwei .Erweihidden img{
+    width: 112px;
+    height: auto;
+}
+.header .search .searchErwei .Erweihidden{
+    position: absolute;
+    top: 167px;
+    left: 1347px;
+}
+
+.header .search .searchShop{
+    width: auto;
+    margin: 43px 0px 10px;
+    padding: 0px 20px 0px 117px;
+}
+.header .search .searchShop input{
+    width: 437px;
+    height: 37px;
+    border: solid 2px red;
+    color: #A3A3A3;
+    padding: 0px 12px;
+}
+.header .search .searchShop button{
+    background-color: red;
+    border: none;
+    padding: 5px 13px
+}
+.header .search .searchShop button span{
+    font-size: 28px;
+    color: white;
+}
+
+.header .parshouye{
+    background-color: #fb3434;
+}
+.header .parshouye .secIndex{
+    width: 1190px;
+    height: 50px;
+    margin: 0px auto;
+}
+.header .parshouye .secIndex ul li{
+    line-height: 27px;
+    margin: 10px;
+}
+.header .parshouye .secIndex ul li:first-child a{
+    border: solid 1px red;
+    background-color: white;
+    border-radius: 15px;
+    color: red;
+}
+.header .parshouye .secIndex ul li a{
+    padding: 3px 16px;
+    border: solid 1px red;
+    font-size: 16px;
+    color: white;
+}
+.header .parshouye .secIndex ul li a:hover{
+    border: solid 1px red;
+    background-color: white;
+    border-radius: 15px;
+    color: red;
+}
